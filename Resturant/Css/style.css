@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*, 
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main Style */
+body , html{
+    font-family: 'Roboto';
+    line-height: 1.8rem;
+}
+ul , ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+/* Utility Classess*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.clear{clear: both;}
+.text-white{
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
+.text-dark{
+    color: black;
+}
+.bg-dark{
+    background-color: grey;
+}
+.text-center{
+    text-align: center;
+}
+/* Navbar Style */
+.navbar{
+    padding: 16px 0;
+}
+.navbar .nav-items{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+.navbar .nav-items .logo{
+    size:100px;
+}
+.navbar .nav-items .brand a{
+    color: yellow;
+    font-size: 2rem;
+}
+
+.navbar .nav-items .links ul li{
+    display: inline-block;
+    padding: 0 8px;
+}
+.navbar .nav-items .links ul li a:hover{
+    color:blue;
+}
+.showcase1{
+    background-image:url('../Images/background.jpg');
+    height:600px;
+    background-position:center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family:cursive;
+}
+.showcase1 .showcasetext1{
+    padding-top: 145px;
+}
+.showcase1 .showcasetext1 .subhead1{
+    font-size: 1.8rem;
+    font-style: normal;
+    padding: 25px 0;
+    word-spacing: 8px;
+}
+
+.showcase1 .showcasetext1 .subhead1 button{
+    width:5px;
+    margin:10px auto;
+    border:2px solid yellow;
+}
+
+.showcase1 .showcasetext1 button:hover{
+    background-color: black;
+    color:yellow;
+}
+
+.showcase2.showtext2{
+    padding-top: 145px;
+}
+.showcase2 .showcasetext2 .subhead2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 25px 0;
+    word-spacing: 8px;
+}
+
+.showcase2 .showcasetext2 hr{
+    width:10px;
+    margin:10px auto;
+    border:1px solid yellow;
+}
+.bigrow{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20px;
+    
+}
+.footer
+{
+    background-color:silver;
+}
