@@ -106,17 +106,39 @@ a{
 .showcase2 .showcasetext2 hr{
     width:10px;
     margin:10px auto;
-    border:1px solid yellow;
+    border:3px solid black;
 }
 .bigrow{
     display:flex;
-    flex-direction: row;
+    flex-direction:row;
     flex-wrap: wrap;
     justify-content: space-between;
     padding:20px;
+    margin:10px auto;
     
 }
-.footer
+
+.contactus .showcase{
+    font-size: 1.8rem;
+    font-style: normal;
+    padding: 25px 0;
+    word-spacing: 8px;
+}
+.footer.icon
 {
     background-color:silver;
+    justify-content: space-between;
+}
+.footer .icon{
+    color:red;
+}.contactus .showcase button{
+    width:5px;
+    margin:10px auto;
+    border:2px solid yellow;
+    
+}
+
+.contactus .showcase1 button:hover{
+    background-color: black;
+    color:yellow;
 }
