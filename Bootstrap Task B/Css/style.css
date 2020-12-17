@@ -1,0 +1,315 @@
+@charset 'utf-8';
+
+/* Main Style*/
+html , body{
+    font-family :'Hammersmith One', sans-serif;
+    box-sizing: border-box;
+}
+/* Navbar Area */
+html , body{
+    font-family: 'Sriracha', cursive;
+    box-sizing: border-box;
+}
+/* Navbar Style */
+.navbar-expand-lg{
+    background-color: white !important;
+}
+.navbar-expand-lg .navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar-expand-lg .nav-item .nav-link{
+    padding: 0 12px;
+}.navbar-expand-lg .nav-item hr{
+
+    width:3rem;
+    margin-left:10px;
+    border:3px solid brown;
+}
+.navbar-expand-lg  .button{
+    
+    color:brown;
+}
+
+.navbar-expand-lg button:hover{
+    background-color: brown;
+    color:black;
+}
+
+
+
+/*** Show Case 1 Area**/
+
+.showcase1{
+    background-image:url('../Images/header/header\ 2.jpg');
+    height:600px;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.showcase1 .content{
+    padding-top: 145px;
+}
+.showcase1 .content.subhead1{
+    font-size: 1.8rem;
+    font-style: normal;
+    padding: 25px 0;
+    word-spacing: 8px;
+}
+.showcase1 .content hr{
+
+    width:3rem;
+    margin-left:10px;
+    border:3px solid brown;
+}
+
+/** Showcase 2**/
+
+.showcase2 .content{
+    padding-top: 198px;
+}
+
+.showcase2 .content .button{
+    
+    color:brown;
+}
+
+.showcase2 .content button:hover{
+    background-color: brown;
+    color:black;
+    border-radius: 40%;
+}
+.boy1{
+justify-content:right;
+margin-top:-200px;
+}
+
+/**Icons**/
+.showcase3
+{
+    margin-top: 198px !important;
+}
+.showcase3 .container .h2 {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px;
+    margin-top:10px;
+}
+.showcase3 hr{
+    width:4rem;
+    border-color: brown;
+}
+.showcase3 .icon{
+    margin-top: 45px ;
+    color: brown;
+}
+.showcase3 h4{
+    margin: 20px 0;
+}
+
+/*** Showcase 3*/
+
+
+.services3 
+{
+    margin-top: 100px !important;
+}
+
+.services3 .content .li {
+    list-style:none;
+    text-decoration:none;
+    }
+    .services3 .icon{
+    margin-top: 45px;
+    color: brown;
+}
+.services3 .icon{
+    margin-top: 45px ;
+    color: brown;
+}
+.services3.icons{
+    justify-content: right;
+    margin-right:10px ;
+}
+.service3.button{
+    width:5px;
+    margin:10px ;
+    color:brown;
+}
+.boy1{
+    justify-content:right;
+   padding-top:120px;
+    }
+    
+    /*** Show 4 Area**/
+.showcase4
+    {
+       padding-top: 150px !important;
+    }
+
+    .showcase4 .content .h2 {
+        font-size: 2.5rem;
+        text-shadow: 1px 1px 2px;
+        margin-top:10px;
+    }
+     .showcase4 .icon{
+    
+        margin:10px ;
+        color:brown;
+      
+    }  
+    .showcase4 .button{
+        width:5px;
+        margin:10px;
+        border-radius:40%;
+        color:brown;
+    }
+    .showcase4 .button:hover{
+        background-color: brown;
+        color:black;
+    }
+
+    .boy2{
+        justify-content:right;
+        margin-top:-200px;
+        }
+
+    /*** Show Case 5 Area**/
+
+    .showcase5{
+        background-color: black;
+        background-position: center;
+        background-size:cover;
+    }
+    .showcase5
+    {
+       padding-top:195px !important;
+    }
+
+    .showcase5 .content .h2 {
+        font-size: 2.5rem;
+        text-shadow: 1px 1px 2px;
+        margin-top:10px;
+    }
+
+    .showcase5.button{
+        width:5px;
+        margin:10px ;
+        color:brown;
+    }
+    .BigTextarea1
+    {
+        justify-content: center;
+        margin-top:-200px;;
+        border:120px;
+    }
+    .BigTextarea2
+    {
+        justify-content: right;
+        margin-top:-200px;
+        border:120px;
+    }
+    .showcase6{
+        display:flex;
+        flex-direction:row;
+      padding-top:-198px;
+        flex-wrap:wrap;
+    }
+    .showcase6 .content.head2{
+  margin-top:200x ;
+    }
+
+.showcase6  .head2 {
+ 
+    margin:10px ;
+    color:grey;}
+.showcase6 .content .head1 button:hover{
+ 
+    background-color: brown;
+    color:black;
+}
+
+       .showcase7.content
+    {
+        padding-top: 150px !important;
+     }
+     .showcase7 .content.Image2
+     {
+       padding-top:-5px
+    }
+
+   .showcase7 .button{
+    width: 24px;
+        color:brown;
+        border-radius:40%;
+    }
+   
+    /*** ShowCase 8***/
+
+    .showcase8{
+        background-color:black;
+        height:500px;
+    }
+    .showcase8 .content{
+        padding-top:5px;
+    }
+    .showcase8 .button
+    {       width:3rem;
+        border-radius:20%;
+            color:brown;
+            text-align: center;
+        }
+        
+        .showcase8  button:hover{
+            background-color: brown;
+            color:black;
+        }
+        .showcase8 .content .head1
+        {
+          margin-top:-100px;
+        }
+        .showcase8 .content.Paragrah{
+            margin-top:-5px;
+        }
+        
+    
+
+
+
+
+
+
+
+
+
+    /** Footer*/
+
+    .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+   }
+   .footer.icons{
+       display:flex;
+       justify-content:left;
+       
+   }
+    .footer .Head1.footer-bottom
+    {
+       width:20px;
+        height:50px;
+        text-align: left;
+        position: absolute;
+        left:0px;
+        bottom:0px;
+        padding-top:20px;
+    }
+   
+
+
+
+
+
