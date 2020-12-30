@@ -1,0 +1,12 @@
+find max number of an array:
+var arr=[70,65,3, 21, 58,93,12 ,82,15,34,73,2,19];
+var max =arr[0];
+for(vari=0;i<arr.length;i++)
+{
+    if(arr(i)> max)
+    {
+        max=arr(i);
+    }
+
+}
+console.log(max);
