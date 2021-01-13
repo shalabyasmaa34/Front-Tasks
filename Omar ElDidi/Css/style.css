@@ -17,11 +17,14 @@ html , body{
 }
 .navbar-expand-lg .nav-item .nav-link{
     padding: 0 12px;
-    color:purple;
+    color:black !important;
 
 }
 .navbar-expand-lg .nav-item .nav-link:hover{
     transition: border .5s;
-    border-bottom: 4px solid purple;
+    border-bottom: 4px solid pink;
     margin-top: 5px;
+}
+#txtbk{
+    color:black;
 }
