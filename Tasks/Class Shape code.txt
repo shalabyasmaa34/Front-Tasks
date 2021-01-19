@@ -1,0 +1,113 @@
+ Class Shape {
+ color :tring='red';
+  filled:boolean='true';
+  constructor (color:string,filled:boolean){
+  this.color=color;
+  this.filled=filled;
+  }
+  getColor(){
+  return this.color=color;
+  }
+  
+  setColor(color){
+  this.color=color;
+  }
+  isFilled(){
+  return this.filled=filled;
+ }
+ setFilled(filled){
+ return this.filled=filled;
+ }
+ backoutput(){
+ return this.setFilled;
+ }
+ tostring(){
+ return "color is +thi.color+"filled:"+this.filled;
+ }
+ }
+ class Circle extends Shape{
+ radius=1.0;
+ constructor (radius,color,filled )
+ {
+ this.radius=radius;
+ super(filled);
+ }
+ getRadius(){
+ return  this.radius=radius;
+ }
+ setRadius(radius){
+ this.radius=radius;
+ }
+ getArea(){
+ return Math.Pi*MathPow(radius,2);
+ }
+ getCircumfrence(){
+ return 2*Math.Pi*this.radius;
+ }
+ Let C =newCircle (1.0);
+ console.log ('Area is' + getArea());
+ 
+  console.log ('Circumfrence' is' + getCircumfrence());
+  
+  class Rectangle extends Shape{
+  length:duble='1.0';
+  width:double='1.0';
+  constructor(length,width){
+  this.length=length;
+  this.width=width;
+  supper(color,filled);
+  }
+  getLength(){
+ return this.length=length;
+  }
+  getWidth(){
+    return this.width=width;
+	}
+	setLength(length){
+	 this.length=length;
+	 }
+	 setWidth(width)
+	 {
+	  this.width=width;
+	  }
+	  getArea(){
+	  return this.length*this.width;
+	  }
+	  getPerimeter(){
+	  return 2*(this.length+this.width);
+	  }
+	  Let rect1=newRectangle(5,3);
+	  rect1.length=5;
+	  rect1.width=3;
+	  
+	  console.log('Area is ' + getArea());
+	 console.log('Perimeter is ' + getPerimeter());
+	
+	class Square extends Shape{
+	side=3;
+	constructor(color,filled,side){
+	this.color=color;
+	this.filled=filled;
+	this.side=side;
+	super(color,filled);
+	}
+	getSide()
+	{
+	return this.side=side;
+	}
+	setSide(side){
+	this.side=side;
+	}
+	getArea(){
+	return this.size*MathPow,4;
+	}
+	getPerimeter(){
+	return 4*this.size;
+	}
+	let square1=new Square(3);
+	square1=3;
+  console.log('Area is ' + getArea());
+	 console.log('Perimeter is ' + getPerimeter());
+	 }
+  
+  

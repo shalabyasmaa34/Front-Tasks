@@ -1,0 +1,26 @@
+class Rectangle {
+    constructor(height, width) {
+      this.length = length;
+      this.width = width;
+    }
+    
+    get area() {
+      return this.calcArea();
+    }
+    getPerimeter()
+    {
+        return this.calcPerimeter();
+    }
+
+    calculatetheArea() {
+      return this.length * this.width;
+    }
+    calculatethePerimeter() {
+        return 2(this.length+this.width);
+      }
+  }
+  
+  const rect1= new Rectangle(5,3);
+  
+  console.log(rect1.area); 
+  console.log(rec1.Perimeter);
