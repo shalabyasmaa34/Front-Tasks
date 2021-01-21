@@ -1,0 +1,53 @@
+class Circle {
+ radius :double='1.0';
+ color:string ="red";
+ 
+ constructor(radius:double,color:string )
+ {
+ this.radius=radius;
+ this.color=color:
+ }
+ setRadius(radius:double):void 
+ getRadius(){
+ return this.radius:
+ }
+ getColor(){
+ return this.color;
+ }
+ setColor(color:string):void 
+ getArea(){
+ return Math.Pi*MathPow(this.radius,2);
+ 
+ }
+ 
+ toString{
+ (return ('radius is' +this.radius+'color is ' +this.color);
+ }
+ 
+ 
+ Class Cylinder extends Circle {
+ height:double='1.0';
+ 
+ constructor(radius:double,color:string,height:double ){
+ this.radius=radius;
+ this.color=color:
+ this.height=height;
+ 
+ super();
+ }
+ getHeight(){
+ return this.height;
+ }
+ setheight(height:double):void 
+ 
+ getVolume {
+ return Math.Pi*Math.Pow(this.radius,2)* this.height;
+ (
+ Let c=new Circle(1.0);
+ c.radius=1.0;
+ c.area=3.14
+ c.volume=3.14
+ 
+ console.log ('area is ' +getArea());
+ console.og('volume is '+getVolume ());
+ }
