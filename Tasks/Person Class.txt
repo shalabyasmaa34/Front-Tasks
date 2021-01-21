@@ -1,0 +1,77 @@
+class Person{
+name :string;
+address:string;
+constructor (name:string,address:string)
+{
+this.name=name;
+this.address=address;
+}
+getName(){
+return this.name;
+}
+getAddress(){
+return this.address;
+}
+setAddress(address:string):void
+
+toString(){
+ return ('nameis' +this.name+'address'+ this.address);
+ 
+ class Studenr extends Person{
+ program:string;
+ year:int;
+ fee:double;
+ 
+ constructor(program :string, year:int ,fee:double){
+ super();
+ this.program=program;
+ this.year=year;
+ this.fee=fee;
+ }
+ getProgram(){
+ return this.program;
+ }
+ setProgram(program:string):void
+ 
+ getYear(){
+ return this.year;
+ }
+ getFee(){
+ return this.fee;
+ }
+ setFee(fee:double):void 
+ 
+ 
+ 
+ getString(){
+ return('name is' +this.name+'address is ' +this.address+'program is '+this.program +'year'+this.year+'fee'+this.fee);
+ 
+ class Staff extends Person{
+ school:string;
+ pay :double;
+ constructor( name:string,address:string,school:string ,pay:double{
+
+ this.name=name;
+ this.address=address;
+ this.school=school;
+ this.pay=pay;
+super();
+}
+getSchool(){
+return this.school;
+}
+setSchool(school:string);void
+getPay (){
+return this.pay=pay:
+}
+setPay(pay:double):void 
+getString (){
+return('name is' +this.name+'address is ' +this.address+'program is '+this.program +'year'+this.year+'fee'+this.fee+'school'+this.school+'pay'+this.pay );
+ 
+ let st=new Student= Ali;
+ console.log('address'+getAddress());
+  console.log('school'+getSchool());
+   console.log('Pay'+getPay));
+    console.log('fee'+getFee());
+	}
+	
