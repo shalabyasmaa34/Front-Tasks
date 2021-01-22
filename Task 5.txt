@@ -1,0 +1,35 @@
+Class Animal {
+void hasSound();
+int canrun ;
+void isPet();
+}
+abstract class Dog implements Animal {
+
+void isPet();
+    public void callSound() {
+ console.log("bark");
+    }
+
+}
+abstract class Cat implements Animals {
+
+void isPet();
+console.log("meow");
+    }
+
+}
+class Lion implements Animal {
+void isPet();
+    public void callSound() {
+        super.callSound(roar);
+    }
+
+    public int run() {
+        return 40;
+    }
+
+}
+
+}
+
+
