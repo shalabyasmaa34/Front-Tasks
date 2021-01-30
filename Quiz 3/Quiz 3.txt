@@ -1,0 +1,49 @@
+Question 1 :
+1.wrong answer Enscapsulation
+2.true because it is used for hiding implementation details
+3.wrong it cannot be overloaded 
+4. true because object it can be a class and It can incorporate different properties and strategies and may even contain different items.
+5. true because  encapsulation,  hide the internal representation, or state, of an object from the outside. 
+6. true because object is class
+7. true because object is a class and behavior here act as a superclass and inherited into a subclass used to be extended.
+8. true because object is a class and behavior here act as a superclass and inherited into a subclass used to be extended.
+========================================================
+
+Block 1:
+ let name='   ';
+let message='   ';
+function a{
+return function b{
+return function c{
+return function d{
+return message;
+}
+=====================================================
+Block 1:
+
+let name='  ';
+let message ='   ';
+
+function a {
+return function b{
+return function c{
+return function d{
+return message ;
+}
+======================================================
+ Block 2:
+class  Person{
+ 
+    person1details=['John',20,'USA'];
+    constructor(name,age, address)
+    {
+        this.name=name;
+        this.age=age;
+        this.adress=address;
+    }
+cosole.log=== (person1details);
+======================================================
+
+ Question 3 Explain With Coding:
+
+
