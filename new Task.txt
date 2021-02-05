@@ -1,0 +1,1 @@
+Loose coupling simply implies that segments can cooperate without expecting anything about the inside operations of one another. You do that on the grounds that the more your segments treat each other as secret elements, the simpler it becomes to do changes at one part without influencing any others.
